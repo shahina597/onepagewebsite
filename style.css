@@ -1,0 +1,173 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "Playfair Display";
+}
+.menubar{
+	display:flex;
+	
+	justify-content:space-between;
+}
+.menubar ul {
+	display:inline-flex;
+	justify-content:space-between;
+	list-style:none;
+	padding:0px 20px;
+
+}
+.menubar ul a{
+	display:block;
+	
+	padding:0px 20px;
+	text-decoration:none;
+	letter-spacing:3px;
+	color:black;
+	font-size:15px;
+	width:99px;
+	height:50px;
+	margin:8px;
+	text-align:center;
+	transition:.5s;
+	line-height:50px;
+	
+}
+.menubar ul a:hover{
+	background:#ddd;
+}
+.menubar .logo{
+	text-decoration:none;
+	font-size:20px;
+	letter-spacing:5px;
+	padding:0px 20px;
+	/* text-align:center; */
+	line-height:50px;
+	color:black;
+	/* background:#ddd; */
+	width:303px;
+	height:50px;
+	margin:10px 10px;
+	text-align:center;
+	transition:.5s;
+}
+.menubar .logo:hover{
+	background:#ddd;
+}
+		/* menubar end */
+		
+.container{
+	background-image:url(hamburger.jpg);
+	background-position:center;
+	background-size:cover;
+	height:750px;
+	width:100%;
+	position:relative;
+	
+}
+.container .content{
+	position:absolute;
+	top:90%;
+	left:0%;
+	width:100%;
+	height:100%;
+	color:#40424cb0;
+	letter-spacing:4px;
+	padding:0 40px;
+	
+}
+		/* tablesetting-section start\*/
+.tablesetting-section .row {
+	display:flex;
+	margin-top:80px;
+	font-family: "Playfair Display";
+	/* text-align:center; */
+}
+.tablesetting-section .row img{
+	width:600px;
+	height:750px;
+	margin:0 40px;
+	
+}
+.tablesetting-section .row  h1{
+	font-size:42px;
+	text-align:center;
+	letter-spacing:3px;
+	
+}
+
+.tablesetting-section .row p{
+	font-size:23px;
+	letter-spacing:1px;
+	
+	
+}
+		
+		/* menusection-start */
+		
+.menu-section .row{
+	display:flex;
+	justify-content:center;
+	margin-top:100px;
+	font-family: "Playfair Display";
+}
+.menu-section .row img{
+	width:500px;
+	height:750px;
+	padding:12px 24px !important;
+	
+}
+.menu-section .row .content{
+	padding:0 50px;
+}
+.menu-section .row h1{
+	font-size:40px;
+	letter-spacing:3px;
+	text-align:center;
+}
+.menu-section .row h3{
+	font-size:23px;
+	letter-spacing:3px;
+}
+.menu-section .row p{
+	color:grey;
+	font-size:17px;
+	letter-spacing:2px;
+}
+.contact{
+	font-family: "Playfair Display";
+	margin-top:80px;
+}
+.contact h1{
+	text-align:center;
+	font-size:37px;
+	letter-spacing:3px;
+}
+.contact  h3{
+	text-align:center;
+	font-size:19px;
+	letter-spacing:2px;
+	color:grey;
+}
+.contact input{
+	width:100%;
+	height:30px;
+	margin:10px;
+	padding:20px;
+	font-size:22px;
+	border-radius:5px;
+	letter-spacing:2px;
+}
+.contact .button{
+	width:200px;
+	height:60px;
+	background:black;
+	color:#fff;
+	border:none;
+	font-size:28px;
+	transition:.5s;
+	
+	
+}
+.contact .button:hover{
+	background:grey;
+	letter-spacing:7px;
+}
